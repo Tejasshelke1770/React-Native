@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
 });
 
-//2.10
+//2.16
 
 // import {
 //   Image,
