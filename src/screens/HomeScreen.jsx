@@ -1,5 +1,6 @@
+/* eslint-disable react-native/no-inline-styles */
 import {useState} from 'react';
-import {Button, Pressable, StyleSheet, Text, View} from 'react-native';
+import {Pressable, StyleSheet, Text, View} from 'react-native';
 import AllItemsScreen from './AllItemsScreen';
 import CreateScreen from './CreateScreen';
 import LowStockScreen from './LowStockScreen';

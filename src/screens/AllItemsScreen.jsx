@@ -2,7 +2,7 @@ import {FlatList, StyleSheet, Text, View} from 'react-native';
 
 const AllItems = ({data}) => {
   return (
-    <View style={{flex:1}}>
+    <View style={{flex: 1}}>
       <View style={styles.HeadingContainer}>
         <Text style={styles.headingText}>Items</Text>
         <Text style={styles.headingText}>Quantity</Text>

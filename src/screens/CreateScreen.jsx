@@ -42,7 +42,7 @@ const CreateScreen = ({data, setData}) => {
   const handleUpateItem = () => {
     setData(
       data.map(el => {
-       return el.id == itemId ? {...el, item: item, stock: Number(stock)} : el;
+        return el.id == itemId ? {...el, item: item, stock: Number(stock)} : el;
       }),
     );
     setItem('');
@@ -66,7 +66,7 @@ const CreateScreen = ({data, setData}) => {
       />
       <Pressable
         style={styles.button}
-        onPress={() => isEdit ? handleUpateItem() : handleAddItem()}>
+        onPress={() => (isEdit ? handleUpateItem() : handleAddItem())}>
         <Text style={styles.buttonText}>
           {isEdit ? 'Edit Item' : 'Add Item'}
         </Text>

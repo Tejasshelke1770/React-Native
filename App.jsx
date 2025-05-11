@@ -1,18 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import Home from './src/screens/HomeScreen'
+import {StyleSheet, Text, View} from 'react-native';
+import Home from './src/screens/HomeScreen';
 
 const App = () => {
-
   return (
     <View>
       <Home />
     </View>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
 
 //color codes
 // #D7F6BFFF
